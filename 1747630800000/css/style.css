@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--app-color-background);
+  user-select: none;
+  overscroll-behavior: contain;
+}
+
+svg {
+  width: 15px;
+  height: 15px;
+
+  fill: var(--app-color-letter);
+}
+
+button,
+input,
+textarea {
+  background: none;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+#app {
+  position: fixed;
+  inset: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+
+  overflow: hidden;
+}
+
+.container-routes {
+  flex: 1;
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+.routes {
+  flex: 1;
+  display: flex;
+
+  position: relative;
+
+  overflow-y: auto;
+}
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
