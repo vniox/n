@@ -1043,7 +1043,7 @@ var pagesGreet = () => {
               <img src="./img/web/background-2.png">
             </div>
             <div class="tag_uiysvsv9usq1bdw" style="padding:10px">
-              <audio src="./media/audio/audio-1.m4a" controls controlsList="nodownload"></audio>
+              <audio src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/audio/audio-1.m4a" controls controlsList="nodownload"></audio>
             </div>
            </div>
 
@@ -1069,8 +1069,8 @@ var pagesGreet = () => {
         </div>
 
         <div class="tag_iwzfvaadjndwsd2">
-          <video tag-id="videoOne" src="https://storage.vniox.com/uuid-0196e625-b6e0-77c7-a080-16197237c06b/videos/video-1.mp4" controls controlsList="nodownload"></video>
-          <video tag-id="videoTwo" src="https://storage.vniox.com/uuid-0196e625-b6e0-77c7-a080-16197237c06b/videos/video-2.mp4" controls controlsList="nodownload"></video>
+          <video tag-id="videoOne" src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/video/video-1.mp4" controls controlsList="nodownload"></video>
+          <video tag-id="videoTwo" src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/video/video-2.mp4" controls controlsList="nodownload"></video>
         </div>
       </div>
   `);
@@ -1376,7 +1376,6 @@ var pagesGallery = () => {
 
   const myApp = window.dataApp;
 
- 
   const messages = {
     goChorrillos: `
     No hay mucho que pueda decir sobre este dia, ademas de lo nervioso que me encontraba, primera vez visitando chorrillos, literalmente al otro opuesto en donde vivo, el regalo que recibiste, por cierto, tu hermana estaba hablando contigo, nerviosos andabamos, pero fue bueno... ella no te envio una foto mia pero yo te lo envio
@@ -1400,16 +1399,16 @@ var pagesGallery = () => {
                 <div class="tag_5lziqqw05fezv3i">
 
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-3.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-3.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-7.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-7.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-8.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-8.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-9.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-9.jpg">
                   </div>
                 
                 </div>
@@ -1426,16 +1425,16 @@ var pagesGallery = () => {
                 <div class="tag_5lziqqw05fezv3i">
 
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-5.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-5.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-6.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-6.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-10.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-10.jpg">
                   </div>
                  <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-13.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-13.jpg">
                   </div>
                 
                 </div>
@@ -1452,10 +1451,10 @@ var pagesGallery = () => {
                 <div class="tag_5lziqqw05fezv3i">
 
                   <div class="tag_le7zyr26br46x56">
-                    <video src="https://storage.vniox.com/uuid-0196e625-b6e0-77c7-a080-16197237c06b/videos/video-3.mp4"></video>
+                    <video data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/video/video-3.mp4"></video>
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <video src="https://storage.vniox.com/uuid-0196e625-b6e0-77c7-a080-16197237c06b/videos/video-4.mp4"></video>
+                    <video data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/video/video-4.mp4"></video>
                   </div>
                 
                 </div>
@@ -1472,10 +1471,10 @@ var pagesGallery = () => {
                 <div class="tag_5lziqqw05fezv3i">
 
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-1.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-1.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-4.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-4.jpg">
                   </div>
                 
                 </div>
@@ -1492,10 +1491,10 @@ var pagesGallery = () => {
                 <div class="tag_5lziqqw05fezv3i">
 
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-11.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-11.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-12.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-12.jpg">
                   </div>
                 
                 </div>
@@ -1512,11 +1511,11 @@ var pagesGallery = () => {
                 <div class="tag_5lziqqw05fezv3i">
 
                   <div class="tag_le7zyr26br46x56">
-                    <video src="https://storage.vniox.com/uuid-0196e625-b6e0-77c7-a080-16197237c06b/videos/video-5.mp4"></video>
+                    <video data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/video/video-5.mp4"></video>
                   </div>
 
                   <div class="tag_le7zyr26br46x56">
-                    <video src="https://storage.vniox.com/uuid-0196e625-b6e0-77c7-a080-16197237c06b/videos/video-6.mp4"></video>
+                    <video data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/video/video-6.mp4"></video>
                   </div>
                 
                 </div>
@@ -1533,26 +1532,26 @@ var pagesGallery = () => {
                 <div class="tag_5lziqqw05fezv3i">
 
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-20.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-20.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-15.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-15.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-16.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-16.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-17.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-17.jpg">
                   </div>
 
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-18.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-18.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-19.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-19.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56" style="grid-column:1/-1">
-                    <img src="./media/image/image-14.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-14.jpg">
                   </div>
                 
                 </div>
@@ -1569,16 +1568,16 @@ var pagesGallery = () => {
                 <div class="tag_5lziqqw05fezv3i">
 
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-21.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-21.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-22.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-22.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-23.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-23.jpg">
                   </div>
                   <div class="tag_le7zyr26br46x56">
-                    <img src="./media/image/image-24.jpg">
+                    <img data-src="https://vniox.github.io/storage/uuid-0196e625-b6e0-77c7-a080-16197237c06b/image/image-24.jpg">
                   </div>
                 
                 </div>
@@ -1627,6 +1626,19 @@ var pagesGallery = () => {
     "--app-color-svg-navigation",
     "#000000"
   );
+
+  const imageVideos = Array.from($element.querySelectorAll("img, video"));
+
+  imageVideos.forEach((child) => {
+    child.addEventListener("_IntersectionObserver", ({ detail }) => {
+      if (detail.entry.isIntersecting) {
+        detail.observer.unobserve(detail.entry.target);
+        detail.entry.target.src = detail.entry.target.dataset.src;
+      }
+    });
+
+    myApp.instances.IntersectionObserver.observe(child);
+  });
 
   return $element;
 };
