@@ -1380,13 +1380,11 @@ var pagesGallery = () => {
     goChorrillos: `
     No hay mucho que pueda decir sobre este dia, ademas de lo nervioso que me encontraba, primera vez visitando chorrillos, literalmente al otro opuesto en donde vivo, el regalo que recibiste, por cierto, tu hermana estaba hablando contigo, nerviosos estabamos, pero fue bueno... ella no te envio una foto mia pero yo te lo envio
     `,
-    final: `
-    Nosotros, obviamente teníamos que estar todos, bueno, quiero decirte que tienes unos ojos muy, pero muy hermosos, son demasiado lindos.
+    final: `Nosotros, obviamente teníamos que estar todos, bueno, quiero decirte que tienes unos ojos muy, pero muy hermosos, son demasiado lindos.
 
     me mencionaste que la u te tiene muy ocupada, todo eso es un esfuerzo que estas llevando, con el tiempo veras el resultado de todo ello, en ocasiones parecerá difícil hacerlo, pero en un futuro lo veras de una manera distinta y veras que si pudiste y que valió la pena, yo creo en que eres capaz de hacer muchas cosas, eres buena en lo que haces y lo que te propones.
 
-    te quiero mucho mi angel, Feliz cumpleaños.
-    `,
+    te quiero mucho mi angel, Feliz cumpleaños. 🎉🎂🥳`,
   };
 
   const $element = mrf.replaceChildren(
@@ -1582,7 +1580,7 @@ var pagesGallery = () => {
                 
                 </div>
                 <div class="tag_3iw4ejir6sovwel">
-                  <p style="line-height:2.1">${messages.final}</p>
+                  <p style="line-height:2.1; white-space: pre-line;">${messages.final}</p>
                 </div>
 
               </div>
