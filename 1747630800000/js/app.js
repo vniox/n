@@ -1378,7 +1378,7 @@ var pagesGallery = () => {
 
   const messages = {
     goChorrillos: `
-    No hay mucho que pueda decir sobre este dia, ademas de lo nervioso que me encontraba, primera vez visitando chorrillos, literalmente al otro opuesto en donde vivo, el regalo que recibiste, por cierto, tu hermana estaba hablando contigo, nerviosos andabamos, pero fue bueno... ella no te envio una foto mia pero yo te lo envio
+    No hay mucho que pueda decir sobre este dia, ademas de lo nervioso que me encontraba, primera vez visitando chorrillos, literalmente al otro opuesto en donde vivo, el regalo que recibiste, por cierto, tu hermana estaba hablando contigo, nerviosos estabamos, pero fue bueno... ella no te envio una foto mia pero yo te lo envio
     `,
     final: `
     Nosotros, obviamente teníamos que estar todos, bueno, quiero decirte que tienes unos ojos muy, pero muy hermosos, son demasiado lindos.
@@ -1459,7 +1459,7 @@ var pagesGallery = () => {
                 
                 </div>
                 <div class="tag_3iw4ejir6sovwel">
-                  <p style="line-height:2.1">Te comparto estos video, fue cuando fui a chancay, recuerdo que no estabamos hablando en ese tiempo, pero estabas en mis pensamientos, y solo podia pensar en que hariamos si estuvieramos juntos</p>
+                  <p style="line-height:2.1">Te comparto estos videos, fue cuando fui a chancay, recuerdo que no estabamos hablando en ese tiempo, pero estabas en mis pensamientos, y solo podia pensar en que hariamos si estuvieramos juntos</p>
                 </div>
 
               </div>
@@ -1591,8 +1591,8 @@ var pagesGallery = () => {
 
 
             <div class="tag_iwzfvaadjndwsd2">
-              <img tag-id="image" src="">
-              <video tag-id="video" src="" controls controlsList="nodownload"></video>
+              <img class="not-include" tag-id="image" src="">
+              <video class="not-include" tag-id="video" src="" controls controlsList="nodownload"></video>
             </div>
         </div>
     `),
@@ -1630,6 +1630,8 @@ var pagesGallery = () => {
   const imageVideos = Array.from($element.querySelectorAll("img, video"));
 
   imageVideos.forEach((child) => {
+    if (child.classList.contains("not-include")) return;
+
     child.addEventListener("_IntersectionObserver", ({ detail }) => {
       if (detail.entry.isIntersecting) {
         detail.observer.unobserve(detail.entry.target);
